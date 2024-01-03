@@ -3,9 +3,7 @@ from typing import List
 """Module that calculates the sum of a list of floats"""""
 
 
-def sum_list(input_list: list) -> float:
+def sum_list(input_list: List[float]) -> float:
     """Calculate the sum of a list of floats"""
-    if all(isinstance(item, float) for item in input_list):
-        return sum(input_list)
-    else:
-        raise TypeError("Input list should contain only floats")
+    return sum(input_list)
+    
