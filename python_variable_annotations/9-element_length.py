@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Let's duck type an iterable object"""
+"""Lets duck type an iterable object"""
 
 
-from typing import Iterable, Sequence, List, Tuple
+from typing import Tuple, Sequence, List, Iterable
 
 
-def element_length(lst: List[Iterable]) -> List[Tuple[Iterable, int]]:
-    """function that return a list of tuples"""
+def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
+    """ Returns a list of tuples with the length of each element"""
     return [(i, len(i)) for i in lst]
