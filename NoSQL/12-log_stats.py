@@ -6,7 +6,7 @@ from pymongo import MongoClient
 
 def helper(a: dict) -> int:
     """Helper function"""
-    client = MongoClient('mongodb://127.0.0.1:27017')
+    client = MongoClient('mongodb://')
     col = client.logs.nginx
     return col.count_documents(a)
 
