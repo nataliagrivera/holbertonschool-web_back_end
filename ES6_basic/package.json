@@ -1,0 +1,11 @@
+{
+  "name": "es6_basic",
+  "version": "1.0.0",
+  "description": "First js project ",
+  "main": "0-constants.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
