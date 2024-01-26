@@ -8,3 +8,4 @@ function handleResponseFromAPI(promise) {
     .finally(() => console.warn('Got a response from the API'));
 }
 
+export default handleResponseFromAPI;
