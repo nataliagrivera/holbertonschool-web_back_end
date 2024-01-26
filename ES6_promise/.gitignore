@@ -3,4 +3,6 @@
 /package.json
 /.eslintrc.js
 /nodesource_setup.sh
+/.json
+/package-lock.json
 ```
