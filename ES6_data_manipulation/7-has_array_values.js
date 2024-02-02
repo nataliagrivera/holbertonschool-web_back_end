@@ -1,3 +1,4 @@
 export default function hasValuesFromArray(set, array) {
-  return array.every((element) => set.has(element));
+  const check = array.every((item) => set.has(item));
+  return check;
 }
